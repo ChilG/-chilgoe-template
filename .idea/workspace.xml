@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc49e34-7e1c-4485-a95e-592a1f9beae9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/example-line-notify/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-line-notify/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-line-notify/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-line-notify/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-line-notify/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +42,16 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2i8KGGkk83Kwrfk9KVf0yqZyzDz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates",
@@ -60,7 +72,7 @@
     "npm.start.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/node_modules/prettier",
     "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/create-chil-ts/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,7 +86,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.pack">
+  <component name="RunManager" selected="npm.build">
     <configuration name="bin" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -127,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.pack" />
-        <item itemvalue="npm.prebuild" />
-        <item itemvalue="npm.format" />
-        <item itemvalue="npm.bin" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.pack" />
+        <item itemvalue="npm.bin" />
+        <item itemvalue="npm.format" />
+        <item itemvalue="npm.prebuild" />
       </list>
     </recent_temporary>
   </component>
@@ -156,11 +168,14 @@
       <option name="presentableId" value="Default" />
       <updated>1718866667130</updated>
       <workItem from="1718866668315" duration="8199000" />
-      <workItem from="1718875030108" duration="1070000" />
+      <workItem from="1718875030108" duration="4417000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

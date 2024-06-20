@@ -12,7 +12,7 @@ const args = arg({
 
 const projectName = args['--name'] ?? 'my-app';
 
-const template = args['--template'] ?? 'basic';
+const templateName = args['--template'] ?? 'basic';
 
 if (fs.existsSync(projectName)) {
   throw new Error(`This project already exists '${projectName}'`);
@@ -20,7 +20,21 @@ if (fs.existsSync(projectName)) {
   fs.mkdirSync(projectName);
 }
 
-await copyAllFiles(`templates/${template}`, projectName);
+const repo = 'https://github.com/ChilG/chilgoe-templates.git';
+
+const repoName = 'chilgoe-templates';
+
+await execa('git', ['clone', '--no-checkout', repo, repoName], {cwd: projectName});
+
+await execa('git', ['config', 'core.sparseCheckout', 'true'], {cwd: path.join(projectName, repoName)});
+
+await execa('echo', ['templates/', '>>', '.git/info/sparse-checkout'], {cwd: path.join(projectName, repoName)});
+
+await execa('git', ['checkout', 'master'], {cwd: path.join(projectName, repoName)});
+
+await copyAllFiles(path.join(projectName, repoName, 'templates', templateName), projectName);
+
+await execa('rm', ['-rf', repoName], {cwd: projectName});
 
 const pathOfPackageJson = `${projectName}/package.json`;
 
@@ -30,9 +44,7 @@ const packageJson = JSON.parse(packageJsonString);
 
 fs.writeFileSync(pathOfPackageJson, JSON.stringify({...packageJson, name: projectName}, null, 2));
 
-const {stdout} = await execa('npm', ['install'], {cwd: projectName});
-
-console.log(stdout);
+await execa('npm', ['install'], {cwd: projectName});
 
 async function copyAllFiles(sourceDir: string, targetDir: string) {
   try {
