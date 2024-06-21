@@ -5,15 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc49e34-7e1c-4485-a95e-592a1f9beae9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/example-line-notify/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-line-notify/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-line-notify/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-line-notify/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-line-notify/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/electron-nextjs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/app/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/app/helpers/create-window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/app/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/main/background.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/main/helpers/create-window.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/main/helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/main/preload.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/app/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/next.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/preload.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/resources/icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/resources/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +58,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ChilG"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ChilG&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://ChilG@github.com/ChilG/chilgoe-templates.git",
-    "accountId": "556fb961-bdfd-4357-8702-debe8170e9c9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://ChilG@github.com/ChilG/chilgoe-templates.git&quot;,
+    &quot;accountId&quot;: &quot;556fb961-bdfd-4357-8702-debe8170e9c9&quot;
   }
-}]]></component>
+}</component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -49,33 +84,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.bin.executor": "Run",
-    "npm.build.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.format.executor": "Run",
-    "npm.lint.executor": "Run",
-    "npm.pack.executor": "Run",
-    "npm.prebuild.executor": "Run",
-    "npm.start.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/node_modules/prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/Users/chilgoe/.nvm/versions/node/v20.13.1/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.bin.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.format.executor&quot;: &quot;Run&quot;,
+    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
+    &quot;npm.pack.executor&quot;: &quot;Run&quot;,
+    &quot;npm.prebuild.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/basic" />
@@ -168,12 +206,21 @@
       <option name="presentableId" value="Default" />
       <updated>1718866667130</updated>
       <workItem from="1718866668315" duration="8199000" />
-      <workItem from="1718875030108" duration="4417000" />
+      <workItem from="1718875030108" duration="4749000" />
+      <workItem from="1718954809600" duration="1068000" />
+      <workItem from="1718959994921" duration="525000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/templates/electron-nextjs/main/helpers/create-window.js" />
+        <option value="$PROJECT_DIR$/templates/electron-nextjs/main/helpers/index.js" />
+        <option value="$PROJECT_DIR$/templates/electron-nextjs/main/background.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
