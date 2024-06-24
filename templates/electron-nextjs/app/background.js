@@ -30,12 +30,12 @@ const path = __importStar(require("path"));
 const electron_serve_1 = __importDefault(require("electron-serve"));
 const electron_1 = require("electron");
 const helpers_1 = require("./helpers");
-const isProd = process.env.NODE_ENV === 'production';
-if (isProd) {
-    (0, electron_serve_1.default)({ directory: 'app' });
+const isDev = process.env.NODE_ENV === 'development';
+if (isDev) {
+    electron_1.app.setPath('userData', `${electron_1.app.getPath('userData')} (development)`);
 }
 else {
-    electron_1.app.setPath('userData', `${electron_1.app.getPath('userData')} (development)`);
+    (0, electron_serve_1.default)({ directory: 'app' });
 }
 const startApplication = async () => {
     const mainWindow = (0, helpers_1.createWindow)('main', {
@@ -50,13 +50,13 @@ const startApplication = async () => {
         frame: false, // Remove window frame
         titleBarStyle: 'hiddenInset', // Hide title bar on macOS
     });
-    if (isProd) {
-        await mainWindow.loadURL('app://./');
-    }
-    else {
+    if (isDev) {
         const port = process.argv[2] ?? 3000;
         await mainWindow.loadURL(`http://localhost:${port}/`);
         mainWindow.webContents.openDevTools();
+    }
+    else {
+        await mainWindow.loadURL('app://./');
     }
 };
 electron_1.app.whenReady().then(startApplication);

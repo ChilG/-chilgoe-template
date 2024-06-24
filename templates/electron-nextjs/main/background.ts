@@ -3,12 +3,12 @@ import serve from 'electron-serve';
 import {app, BrowserWindow} from 'electron';
 import {createWindow} from './helpers';
 
-const isProd = process.env.NODE_ENV === 'production';
+const isDev = process.env.NODE_ENV === 'development';
 
-if (isProd) {
-  serve({directory: 'app'});
-} else {
+if (isDev) {
   app.setPath('userData', `${app.getPath('userData')} (development)`);
+} else {
+  serve({directory: 'app'});
 }
 
 const startApplication = async () => {
@@ -25,12 +25,12 @@ const startApplication = async () => {
     titleBarStyle: 'hiddenInset', // Hide title bar on macOS
   });
 
-  if (isProd) {
-    await mainWindow.loadURL('app://./');
-  } else {
+  if (isDev) {
     const port = process.argv[2] ?? 3000;
     await mainWindow.loadURL(`http://localhost:${port}/`);
     mainWindow.webContents.openDevTools();
+  } else {
+    await mainWindow.loadURL('app://./');
   }
 };
 

@@ -1,0 +1,7 @@
+appId: com.chilgoe.electron-nextjs
+productName: Electron Nextjs
+copyright: Copyright © 2024 ChilGoe
+
+directories:
+  output: dist
+  buildResources: resources
