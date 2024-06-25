@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1d5252-d277-4ade-9d2a-d32451bccce4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/create-window.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/preload.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renderer/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/renderer/next.config.mjs" afterDir="false" />
     </list>
@@ -56,11 +54,13 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "20.13.1",
     "javascript.nodejs.core.library.typings.version": "20.13.0",
-    "last_opened_file_path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/templates/electron-nextjs",
+    "last_opened_file_path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/templates/electron-nextjs/scripts",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "/Users/chilgoe/.nvm/versions/node/v20.13.1/bin/node",
@@ -77,6 +77,9 @@
     "npm.next:build.executor": "Run",
     "npm.next:dev.executor": "Run",
     "npm.prebuild.executor": "Run",
+    "npm.scripts:build.executor": "Run",
+    "npm.scripts:compile.executor": "Run",
+    "npm.scripts:dev.executor": "Run",
     "npm.web:dev.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/templates/electron-nextjs/node_modules/prettier",
     "settings.editor.selected.configurable": "actions.on.save",
@@ -86,6 +89,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/renderer" />
       <recent name="$PROJECT_DIR$/application" />
@@ -99,7 +103,7 @@
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.prebuild">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -120,21 +124,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="electron:compile" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="next:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="electron:compile" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="next:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="next:build" />
+        <script value="next:dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -150,20 +144,30 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="scripts:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="scripts:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="npm.prebuild" />
-      <item itemvalue="npm.electron:compile" />
-      <item itemvalue="npm.build" />
-      <item itemvalue="npm.next:build" />
       <item itemvalue="npm.dev" />
+      <item itemvalue="npm.next:dev" />
+      <item itemvalue="npm.prebuild" />
+      <item itemvalue="npm.scripts:dev" />
+      <item itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.prebuild" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.next:build" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.electron:compile" />
+        <item itemvalue="npm.prebuild" />
+        <item itemvalue="npm.next:dev" />
+        <item itemvalue="npm.scripts:dev" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +193,8 @@
       <updated>1718955118411</updated>
       <workItem from="1718955121114" duration="10875000" />
       <workItem from="1718974293988" duration="10000" />
-      <workItem from="1719217384441" duration="3625000" />
+      <workItem from="1719217384441" duration="5529000" />
+      <workItem from="1719222928260" duration="2245000" />
     </task>
     <servers />
   </component>

@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "format": "prettier --write \"renderer/**/*.(ts|tsx)\" \"!renderer/.next/**/*\" \"main/**/*.(ts|tsx)\"",
+    "format": "prettier --write \"renderer/**/*.(ts|tsx)\" \"!renderer/.next/**/*\" \"main/**/*.(ts|tsx)\" \"scripts/**/*.ts\"",
     "next:dev": "next -p 3000 renderer",
     "next:build": "next build renderer",
     "electron:compile": "tsc -project tsconfig.electron.json",
-    "electron:serve": "cross-env NODE_ENV=development electron app/background.js",
+    "electron:serve": "electron app/background.js",
     "dev": "cross-env NODE_ENV=development concurrently --names \"compile,next,electron\" -c \"yellow,blue,cyan\" \"npm run electron:compile\" \"npm run next:dev\" \"wait-on http://localhost:3000 && npm run electron:serve\"",
     "prebuild": "rimraf app dist",
     "electron:build": "electron-builder --config electron-builder.yml --win --x64",

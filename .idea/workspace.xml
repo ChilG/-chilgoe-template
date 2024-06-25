@@ -5,50 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc49e34-7e1c-4485-a95e-592a1f9beae9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/electron-nextjs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/app/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/app/helpers/create-window.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/app/helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/main/background.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/main/helpers/create-window.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/main/helpers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/main/preload.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/app/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/app/page.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/app/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/next.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/preload.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/public/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/public/vercel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/resources/icon.icns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/resources/icon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/jsLinters/eslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/electron-nextjs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/electron-nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electron-nextjs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/electron-nextjs/renderer/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/next.config.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +66,7 @@
     &quot;npm.dev.executor&quot;: &quot;Run&quot;,
     &quot;npm.format.executor&quot;: &quot;Run&quot;,
     &quot;npm.lint.executor&quot;: &quot;Run&quot;,
+    &quot;npm.next:dev.executor&quot;: &quot;Run&quot;,
     &quot;npm.pack.executor&quot;: &quot;Run&quot;,
     &quot;npm.prebuild.executor&quot;: &quot;Run&quot;,
     &quot;npm.start.executor&quot;: &quot;Run&quot;,
@@ -124,7 +86,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.next:dev">
     <configuration name="bin" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -155,6 +117,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="next:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/templates/electron-nextjs/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="next:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="pack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -165,23 +137,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="prebuild" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="prebuild" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.next:dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.pack" />
         <item itemvalue="npm.bin" />
         <item itemvalue="npm.format" />
-        <item itemvalue="npm.prebuild" />
       </list>
     </recent_temporary>
   </component>
@@ -209,18 +171,13 @@
       <workItem from="1718875030108" duration="4749000" />
       <workItem from="1718954809600" duration="1068000" />
       <workItem from="1718959994921" duration="525000" />
+      <workItem from="1719221240510" duration="385000" />
+      <workItem from="1719221839956" duration="1907000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/templates/electron-nextjs/main/helpers/create-window.js" />
-        <option value="$PROJECT_DIR$/templates/electron-nextjs/main/helpers/index.js" />
-        <option value="$PROJECT_DIR$/templates/electron-nextjs/main/background.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
