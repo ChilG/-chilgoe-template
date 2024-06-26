@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc49e34-7e1c-4485-a95e-592a1f9beae9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/electron-nextjs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/electron-nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electron-nextjs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/electron-nextjs/renderer/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electron-nextjs/renderer/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -173,6 +171,7 @@
       <workItem from="1718959994921" duration="525000" />
       <workItem from="1719221240510" duration="385000" />
       <workItem from="1719221839956" duration="1907000" />
+      <workItem from="1719390216824" duration="275000" />
     </task>
     <servers />
   </component>
