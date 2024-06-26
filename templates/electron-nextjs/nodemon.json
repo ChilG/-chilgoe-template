@@ -1,0 +1,5 @@
+{
+  "watch": ["main"],
+  "exec": "npm run electron:compile && cross-env NODE_ENV=development concurrently --names \"next,electron\" -c \"blue,cyan\"  \"npm run next:dev\" \"wait-on http://localhost:3000 && npm run electron:serve\"",
+  "ext": "ts"
+}

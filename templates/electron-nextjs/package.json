@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "build": "cross-env NODE_ENV=production npm run next:build && npm run electron:compile && npm run electron:build",
-    "dev": "npm run electron:compile && cross-env NODE_ENV=development concurrently --names \"next,electron\" -c \"blue,cyan\"  \"npm run next:dev\" \"wait-on http://localhost:3000 && npm run electron:serve\"",
+    "dev": "nodemon",
     "electron:build": "electron-builder --config electron-builder.yml",
     "electron:compile": "tsc -project tsconfig.electron.json",
     "electron:serve": "electron app/background.js",
-    "format": "prettier --write \"renderer/**/*.(ts|tsx)\" \"!renderer/.next/**/*\" \"main/**/*.(ts|tsx)\"",
+    "format": "prettier --write \"renderer/**/*.(ts|tsx|json)\" \"!renderer/.next/**/*\" \"main/**/*.(ts|tsx)\"",
     "next:build": "next build renderer",
     "next:dev": "next -p 3000 renderer",
     "prebuild": "rimraf app dist"
@@ -29,6 +29,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
     "next": "14.2.4",
+    "nodemon": "^3.1.4",
     "prettier": "^3.3.2",
     "react": "^18",
     "react-dom": "^18",

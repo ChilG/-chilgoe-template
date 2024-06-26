@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc49e34-7e1c-4485-a95e-592a1f9beae9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/electron-nextjs/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/electron-nextjs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +27,10 @@
     &quot;accountId&quot;: &quot;556fb961-bdfd-4357-8702-debe8170e9c9&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -173,7 +173,7 @@
       <workItem from="1718959994921" duration="525000" />
       <workItem from="1719221240510" duration="385000" />
       <workItem from="1719221839956" duration="1907000" />
-      <workItem from="1719390216824" duration="973000" />
+      <workItem from="1719390216824" duration="1368000" />
     </task>
     <servers />
   </component>
