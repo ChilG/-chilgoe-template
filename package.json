@@ -1,7 +1,7 @@
 {
   "name": "@chilgoe/templates",
   "description": "My typescript project init script.",
-  "version": "0.0.3",
+  "version": "0.0.8",
   "author": "ChilGoe <zonda037@gmail.com>",
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\"",

@@ -1,0 +1,6 @@
+/renderer/.next
+/.idea
+/app
+/dist
+/node_modules
+/.npmignore
