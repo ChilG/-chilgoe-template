@@ -5,3 +5,10 @@ copyright: Copyright © 2024 ChilGoe
 directories:
   output: dist
   buildResources: resources
+
+files:
+  - from: .
+    filter:
+      - app
+      - package.json
+      - node_modules
