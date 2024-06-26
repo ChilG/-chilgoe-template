@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "format": "prettier --write \"renderer/**/*.(ts|tsx)\" \"!renderer/.next/**/*\" \"main/**/*.(ts|tsx)\"",
-    "next:dev": "next -p 3000 renderer",
-    "next:build": "next build renderer",
+    "build": "cross-env NODE_ENV=production npm run next:build && npm run electron:compile && npm run electron:build",
+    "dev": "npm run electron:compile && cross-env NODE_ENV=development concurrently --names \"next,electron\" -c \"blue,cyan\"  \"npm run next:dev\" \"wait-on http://localhost:3000 && npm run electron:serve\"",
+    "electron:build": "electron-builder --config electron-builder.yml",
     "electron:compile": "tsc -project tsconfig.electron.json",
     "electron:serve": "electron app/background.js",
-    "dev": "npm run electron:compile && cross-env NODE_ENV=development concurrently --names \"next,electron\" -c \"blue,cyan\"  \"npm run next:dev\" \"wait-on http://localhost:3000 && npm run electron:serve\"",
-    "prebuild": "rimraf app dist",
-    "electron:build": "electron-builder --config electron-builder.yml",
-    "build": "cross-env NODE_ENV=production npm run next:build && npm run electron:compile && npm run electron:build"
+    "format": "prettier --write \"renderer/**/*.(ts|tsx)\" \"!renderer/.next/**/*\" \"main/**/*.(ts|tsx)\"",
+    "next:build": "next build renderer",
+    "next:dev": "next -p 3000 renderer",
+    "prebuild": "rimraf app dist"
   },
   "main": "app/background.js",
   "dependencies": {
