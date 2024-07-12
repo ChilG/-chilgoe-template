@@ -5,10 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc49e34-7e1c-4485-a95e-592a1f9beae9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.idea/trpc-nextjs-mui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/next.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/nodemon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/server/api/root.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/server/api/routers/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/server/api/trpc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/server/logger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/src/app/provider/TRPCProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/src/lib/mui/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/src/utils/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trpc-nextjs-mui/tsconfig.server.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/electron-nextjs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electron-nextjs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/electron-nextjs/electron-builder.yml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electron-nextjs/electron-builder.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,44 +82,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/Users/chilgoe/.nvm/versions/node/v20.13.1/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.bin.executor&quot;: &quot;Run&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.format.executor&quot;: &quot;Run&quot;,
-    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
-    &quot;npm.next:dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.pack.executor&quot;: &quot;Run&quot;,
-    &quot;npm.prebuild.executor&quot;: &quot;Run&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/templates/trpc-nextjs-mui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/Users/chilgoe/.nvm/versions/node/v20.13.1/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "npm.bin.executor": "Run",
+    "npm.build.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.format.executor": "Run",
+    "npm.lint.executor": "Run",
+    "npm.next:dev.executor": "Run",
+    "npm.pack.executor": "Run",
+    "npm.prebuild.executor": "Run",
+    "npm.start.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/trpc-nextjs-mui" />
       <recent name="$PROJECT_DIR$/templates/basic" />
       <recent name="$PROJECT_DIR$/template/basic" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/trpc-nextjs-mui/src/lib/mui" />
+      <recent name="$PROJECT_DIR$/templates/trpc-nextjs-mui" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -179,6 +216,10 @@
       <workItem from="1719390216824" duration="1368000" />
       <workItem from="1719391882458" duration="469000" />
       <workItem from="1719393123809" duration="8000" />
+      <workItem from="1719395490066" duration="203000" />
+      <workItem from="1719406834409" duration="961000" />
+      <workItem from="1719471681937" duration="651000" />
+      <workItem from="1720759080250" duration="782000" />
     </task>
     <servers />
   </component>

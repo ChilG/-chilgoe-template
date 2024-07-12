@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1d5252-d277-4ade-9d2a-d32451bccce4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/electron-builder.yml" beforeDir="false" afterPath="$PROJECT_DIR$/electron-builder.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,48 +41,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "20.13.1",
-    "javascript.nodejs.core.library.typings.version": "20.13.0",
-    "last_opened_file_path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/templates/electron-nextjs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "/Users/chilgoe/.nvm/versions/node/v20.13.1/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.electron-dev.executor": "Run",
-    "npm.electron.executor": "Run",
-    "npm.electron:build.executor": "Run",
-    "npm.electron:compile.executor": "Run",
-    "npm.electron:dev.executor": "Run",
-    "npm.electron:serve.executor": "Run",
-    "npm.format.executor": "Run",
-    "npm.next:build.executor": "Run",
-    "npm.next:dev.executor": "Run",
-    "npm.prebuild.executor": "Run",
-    "npm.scripts:build.executor": "Run",
-    "npm.scripts:compile.executor": "Run",
-    "npm.scripts:dev.executor": "Run",
-    "npm.web:dev.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/templates/electron-nextjs/node_modules/prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/templates/electron-nextjs/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.13.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.13.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/templates/electron-nextjs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/Users/chilgoe/.nvm/versions/node/v20.13.1/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.electron-dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.electron.executor&quot;: &quot;Run&quot;,
+    &quot;npm.electron:build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.electron:compile.executor&quot;: &quot;Run&quot;,
+    &quot;npm.electron:dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.electron:serve.executor&quot;: &quot;Run&quot;,
+    &quot;npm.format.executor&quot;: &quot;Run&quot;,
+    &quot;npm.next:build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.next:dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.prebuild.executor&quot;: &quot;Run&quot;,
+    &quot;npm.scripts:build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.scripts:compile.executor&quot;: &quot;Run&quot;,
+    &quot;npm.scripts:dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.web:dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/templates/electron-nextjs/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/chilgoe/Documents/MyProject/npx/@chilgoe/templates/templates/electron-nextjs/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -102,17 +99,7 @@
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.prebuild">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.electron:compile">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -123,21 +110,31 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="electron:compile" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="format" />
+        <script value="electron:compile" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="next:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="electron:serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="next:dev" />
+        <script value="electron:serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="format" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -154,19 +151,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="npm.electron:compile" />
+      <item itemvalue="npm.electron:serve" />
       <item itemvalue="npm.format" />
       <item itemvalue="npm.dev" />
-      <item itemvalue="npm.next:dev" />
       <item itemvalue="npm.prebuild" />
-      <item itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.prebuild" />
-        <item itemvalue="npm.build" />
+        <item itemvalue="npm.electron:compile" />
         <item itemvalue="npm.format" />
+        <item itemvalue="npm.electron:serve" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.next:dev" />
+        <item itemvalue="npm.prebuild" />
       </list>
     </recent_temporary>
   </component>
